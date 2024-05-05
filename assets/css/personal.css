@@ -229,7 +229,8 @@ PROFILO
 }
 
 .text-personal-info {
-    color: rgb(24, 150, 253)
+    color: rgb(24, 150, 253);
+    cursor: pointer;
 }
 
 #avatarpng2 {
