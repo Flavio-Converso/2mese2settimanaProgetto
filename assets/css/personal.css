@@ -163,10 +163,6 @@ PROFILO
     border: 1px solid white;
     cursor: pointer;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .custom-checkbox .styled:checked::after {
@@ -176,9 +172,24 @@ PROFILO
     height: 20px;
     border: solid white;
     border-width: 0 3px 3px 0;
-    /* Posiziona esattamente al centro, ma aggiusta se necessario */
     left: 50%;
     top: 43%;
-    /* Compensa il fatto che il punto di trasformazione è al fondo sinistro */
     transform: translate(-50%, -50%) rotate(41deg);
+}
+
+.badge-pos {
+    top: 15px;
+    right: 15px;
+    background-color: #BE0B14 !important;
+    color: white !important;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.badge-pos2 {
+    bottom: 10px;
+    left: 10px;
+    background-color: #BE0B14 !important;
+    color: white !important;
+
 }
