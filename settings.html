@@ -15,15 +15,15 @@
 </head>
 <!--MI RENDO CONTO CHE CICLANDO PARECCHIE COSE AVREI RISPARMIATO PARECCHIE RIGHE DI CODIDCE, PER QUESTIONI DI TEMPO HO OPTATO PER COPIA INCOLLA VARI PER LE COSE RIPETUTE-->
 
-<body class="bg-personal mt-2 mb-5 mx-5">
+<body class="bg-settings mb-5">
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid bg-personal px-5">
             <div class="row">
                 <div class=" col-12 p-0">
                     <nav class="navbar navbar-expand-lg ms-2">
                         <div class="container-fluid p-0">
-                            <a class=" navbar-brand" href="#"><img id="netflix_logo" src="./assets/img/netflix_logo.png"
-                                    alt="logo" /></a>
+                            <a class=" navbar-brand" href="./index.html"><img id="netflix_logo"
+                                    src="./assets/img/netflix_logo.png" alt="logo" /></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -35,8 +35,8 @@
                                         <a class="nav-link text-white-50 pb-sm-0" aria-current="page" href="#">Home</a>
                                     </li>
                                     <li class="nav-item pe-lg-1">
-                                        <a class="nav-link active fw-bold pb-sm-0" href="#"><span
-                                                class="red-hover-personal">Tv Shows</span></a>
+                                        <a class="nav-link text-white-50 pb-sm-0" href="#">
+                                            Tv Shows</a>
                                     </li>
                                     <li class="nav-item pe-lg-1">
                                         <a class="nav-link text-white-50 pb-sm-0" href="#">Movies</a>
@@ -70,10 +70,11 @@
                                                 data-bs-toggle="dropdown" aria-expanded="false">
                                             </button>
                                             <ul class="dropdown-menu bg-dark">
+                                                <li><a class="dropdown-item text-white" href="./index.html"><i
+                                                            class="bi bi-house-door red-personal"></i> Home</a>
+                                                </li>
                                                 <li><a class="dropdown-item text-white" href="./profile.html"><i
                                                             class="bi bi-person red-personal"></i> Profile</a></li>
-                                                <li><a class="dropdown-item text-white" href="./settings.html"><i
-                                                            class="bi bi-gear red-personal"></i> Settings</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -85,7 +86,176 @@
             </div>
         </div>
     </header>
-
+    <main>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div>
+                        <h1 class="text-dark">Account</h1>
+                        <hr class="border-2 text-dark" />
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <div class="d-flex flex-row d-lg-block justify-content-between">
+                                <p class="text-secondary fs-5">MEMBERSHIP & BILLING</p>
+                                <button class="btn btn-secondary  btn-lg rounded-0  fs-6 fw-semibold">
+                                    Cancel Membership
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2 fw-bold text-dark">student@strive.school</p>
+                                    <p class="mb-2 text-personal-info fw-bold">Change account email</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2 text-secondary">Password: ******</p>
+                                    <p class="mb-2 text-personal-info fw-bold">Change password</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2 text-secondary">Phone: 321 044 1729</p>
+                                    <p class="mb-2 text-personal-info fw-bold">Change phone number</p>
+                                </div>
+                                <hr class="border-2 text-secondary" />
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2 fw-bold text-dark">
+                                        <i class="bi bi-paypal"></i>
+                                        <span class="fst-italic">Paypal&nbsp;&nbsp;</span> admin@strive.school
+                                    </p>
+                                    <p class="mb-2 text-personal-info fw-bold">Update payment info</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2 text-secondary fw-semibold"></p>
+                                    <p class="mb-2 text-personal-info fw-bold">Billing details</p>
+                                </div>
+                                <hr class="border-2 text-secondary" />
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2"></p>
+                                    <p class="mb-2 text-personal-info fw-bold">Reedeem gift card or promo code</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2"></p>
+                                    <p class="mb-2 text-personal-info fw-bold">Where to buy gift card</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="border-2 text-secondary" />
+                    </div>
+                    <div class="row flex-column flex-lg-row">
+                        <div class="col-12 col-lg-4">
+                            <div>
+                                <p class="text-secondary fs-5 mb-3">PLAN DETAIL</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <div>
+                                <div class="d-flex justify-content-between mb-4 mb-lg-0">
+                                    <div class="d-flex align-items-center">
+                                        <p class="mb-0 fw-bold text-dark">Premium</p>
+                                        &nbsp; <i class="bi bi-badge-hd fs-4 text-dark"></i>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <p class="mb-0 text-personal-info fw-bold">Change plan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="border-2 text-dark" />
+                    </div>
+                    <div class="row flex-column flex-lg-row">
+                        <div class="col-12 col-lg-4">
+                            <div>
+                                <p class="text-secondary fs-5 mb-3">SETTINGS</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-8 mb-3">
+                            <div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2 text-personal-info fw-bold">Parental controls</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2 text-personal-info fw-bold">Test participation</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2 text-personal-info fw-bold">Manage download devices</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2 text-personal-info fw-bold">Activate a device</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2 text-personal-info fw-bold">Recent device streaming activity</p>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-2 text-personal-info fw-bold">Sign out of all devices</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="border-2 text-dark" />
+                    </div>
+                    <div class="row flex-column flex-lg-row mb-5">
+                        <div class="col-12 col-lg-4">
+                            <div>
+                                <p class="text-secondary fs-5 mb-3">MY PROFILE</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <div>
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="d-flex align-items-center">
+                                        <img id="avatarpng2" class="img-fluid me-2" src="assets/img/avatar.png"
+                                            alt="avatar" />
+                                        <p class="mb-0 fw-bold">Strive student</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-personal-info fw-bold d-flex justify-content-end">Manage
+                                            profiles</p>
+                                        <p class="mb-2 text-personal-info fw-bold">Add profile email</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div>
+                                            <p class="mb-2 text-personal-info fw-bold">Language</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <p class="mb-2 text-personal-info fw-bold">Viewing activity</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div>
+                                            <p class="mb-2 text-personal-info fw-bold">Playback settings</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <p class="mb-2 text-personal-info fw-bold">Ratings</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div>
+                                            <p class="mb-2 text-personal-info fw-bold">Subtitle appearance</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <!--SCRIPT BOOTSTRAP-->
 
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

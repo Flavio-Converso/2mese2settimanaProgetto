@@ -224,3 +224,14 @@ PROFILO
 }
 
 /*PAGINA SETTINGS*/
+.bg-settings {
+    background-color: #ebebeb;
+}
+
+.text-personal-info {
+    color: rgb(24, 150, 253)
+}
+
+#avatarpng2 {
+    width: 35px !important;
+}
