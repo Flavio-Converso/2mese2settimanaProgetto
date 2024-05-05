@@ -8,12 +8,15 @@
 
 .red-hover-personal {
     color: #E50914 !important;
-    opacity: 0.8;
+    opacity: 1;
+    transition: filter ease;
+    filter: brightness(0.8);
 }
 
 .red-hover-personal:hover {
     color: #E50914 !important;
-    opacity: 1 !important
+    opacity: 1 !important;
+    filter: brightness(1.2);
 }
 
 .hover-i:hover {
@@ -30,6 +33,17 @@
 
 .bg-personal {
     background-color: #141414 !important;
+}
+
+.bg-personal2 .text-secondary {
+    transition: filter ease;
+    filter: brightness(0.8);
+    opacity: 0.8;
+}
+
+.bg-personal2:hover .text-secondary {
+    filter: brightness(1.2);
+    opacity: 1;
 }
 
 i:hover {
@@ -118,6 +132,30 @@ a:hover {
     opacity: 0.6 !important;
 }
 
+.carousel-item:hover .badge-pos2 {
+    filter: brightness(20%) !important;
+    opacity: 0.6;
+}
+
+.badge-pos {
+    top: 15px;
+    right: 15px;
+    background-color: #BE0B14 !important;
+    color: white !important;
+    font-size: 1.2em;
+    padding: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.badge-pos2 {
+    bottom: 10px;
+    left: 10px;
+    background-color: #BE0B14 !important;
+    color: white !important;
+}
+
+
+
 /**/
 /**/
 /* tentativo fix tasti carosello*/
@@ -177,18 +215,12 @@ PROFILO
     transform: translate(-50%, -50%) rotate(41deg);
 }
 
-.badge-pos {
-    top: 15px;
-    right: 15px;
-    background-color: #BE0B14 !important;
+
+
+#borderfix {
+    border-color: white !important;
+    border-radius: 0 !important;
     color: white !important;
-    font-size: 1.2em;
-    padding: 10px;
 }
 
-.badge-pos2 {
-    bottom: 10px;
-    left: 10px;
-    background-color: #BE0B14 !important;
-    color: white !important;
-}
+/*PAGINA SETTINGS*/
